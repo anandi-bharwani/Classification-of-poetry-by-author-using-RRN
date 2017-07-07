@@ -1,1 +1,1 @@
-# Classification-of-poetry-by-author-using-RRN
+# Classification-of-poetry-by-author-using-RNN
