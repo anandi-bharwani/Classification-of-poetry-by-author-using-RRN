@@ -1,6 +1,6 @@
 # Classification-of-poetry-by-author-using-RNN
 
-Here machine learning is used to train a model to understand the different styles of writing of poets.
-Robert Frost and Edgar Allen poems are used to train the model to predict which poet has written a given sentence. 
- 
-To do this, I used the python Natural Language Took Kit(nltk) to get the parts of speech tags of every sentence. The one-hot-encoded vector of the POS tags forms the input to the recurrent model. The output this time will not be a sequence but only the only the final value which will give the probability of the sequence written by a particular poet.
+Here objective is to train a model to identify the poet given a line.
+I used Robert Frost and Edgar Allen poems as datasets to train the model to predict which poet has written a given line.
+
+To do this, I used the python Natural Language Took Kit(nltk) to get the parts of speech tags of every sentence. The one-hot-encoded vector of the POS tags forms the input to the recurrent model. The best classification rate observed is 0.76.
